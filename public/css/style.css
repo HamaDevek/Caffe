@@ -1,0 +1,133 @@
+    /*Overrides for Tailwind CSS */
+
+    /*Form fields*/
+    .dt-buttons {
+        text-align: left;
+        margin: 20px;
+    }
+
+    .dt-button span {
+        margin: 10px;
+        color: #707275;
+    }
+
+    .dataTables_paginate {
+        text-align: right
+    }
+
+    .dataTables_wrapper select,
+    .dataTables_wrapper .dataTables_filter input {
+        color: #707275;
+        /*text-gray-700*/
+        padding-left: 1rem;
+        /*pl-4*/
+        padding-right: 1rem;
+        /*pl-4*/
+        padding-top: .5rem;
+        /*pl-2*/
+        padding-bottom: .5rem;
+        /*pl-2*/
+        line-height: 1.25;
+        /*leading-tight*/
+        border-width: 2px;
+        /*border-2*/
+        border-radius: .25rem;
+        border-color: #e0e0e0;
+        /*border-gray-200*/
+        background-color: #e0e0e0;
+        /*bg-gray-200*/
+    }
+    .dataTables_wrapper{
+        padding: 10px;
+    }
+    .dataTables_wrapper select,
+    .dataTables_wrapper .dataTables_filter {
+        text-align: start;
+        margin: 0 20px;
+    }
+
+    .dataTables_wrapper select,
+    .dataTables_wrapper .dataTables_filter label {
+        color: #707275;
+        /*text-gray-700*/
+    }
+
+    .dataTables_wrapper select,
+    .dataTables_length label {
+        color: #707275;
+        /*text-gray-700*/
+    }
+
+    .dataTables_wrapper select,
+    .dataTables_length {
+        text-align: start;
+        margin: 0 20px;
+        /*text-gray-700*/
+    }
+
+    /*Row Hover*/
+    table.dataTable.hover tbody tr:hover,
+    table.dataTable.display tbody tr:hover {
+        background-color: #ebf4ff;
+        /*bg-indigo-100*/
+    }
+
+    /*Pagination Buttons*/
+    .dataTables_wrapper .dataTables_paginate .paginate_button {
+        border-radius: .25rem;
+        /*rounded*/
+        border: 10px solid transparent;
+        /*border border-transparent*/
+        color: #707275;
+
+
+    }
+
+
+    /*Pagination Buttons - Current selected */
+    .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+        padding: 4px 12px;
+        color: #fff !important;
+        /*text-white*/
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06);
+        /*shadow*/
+        border-radius: .25rem;
+        /*rounded*/
+        background: #7e3af2 !important;
+        /*bg-indigo-500*/
+        border: 1px solid transparent;
+        /*border border-transparent*/
+    }
+
+    /*Pagination Buttons - Hover */
+    .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+        color: #fff !important;
+        /*text-white*/
+        background: #7e3af2 !important;
+        /*bg-indigo-500*/
+    }
+
+    /*Add padding to bottom border */
+    table.dataTable.no-footer {
+        border-bottom: 1px solid #e2e8f0;
+        /*border-b-1 border-gray-300*/
+        margin-top: 0.75em;
+        margin-bottom: 0.75em;
+    }
+
+    /*Change colour of responsive icon*/
+    table.dataTable.dtr-inline.collapsed>tbody>tr>td:first-child:before,
+    table.dataTable.dtr-inline.collapsed>tbody>tr>th:first-child:before {
+        background-color: #7e3af2 !important;
+        /*bg-indigo-500*/
+    }
+
+    .dataTables_wrapper .dataTables_paginate {
+        margin: 0 20px;
+    }
+
+    .dataTables_wrapper .dataTables_info {
+        margin: 0 20px;
+        color: #707275;
+
+    }
